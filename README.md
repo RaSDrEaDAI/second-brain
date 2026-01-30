@@ -1,30 +1,34 @@
-# Second Brain Project
+# Second Brain
 
-## Overview
-Intelligent knowledge management system built with NextJS and advanced NLP.
+## Intelligent Knowledge Management System
 
-## Setup
-1. Clone repository
-2. Install dependencies: `npm install`
-3. Run development server: `npm run dev`
+### Deployment
 
-## Deployment
-- Automatically deployed via Vercel
-- Production URL: [Vercel Deployment Link]
+This project is set up for easy deployment on Netlify:
 
-## Technologies
-- NextJS
-- TypeScript
-- NLP.js
-- Hugging Face Transformers
+1. Connect your GitHub repository
+2. Set build command: `npm run build`
+3. Set publish directory: `.next`
 
-## Deployment Steps
-1. Ensure Vercel CLI is installed: `npm i -g vercel`
-2. Login to Vercel: `vercel login`
-3. Deploy: `vercel --prod`
+### Local Development
 
-## Roadmap
-- [x] Basic project setup
-- [ ] NLP integration
-- [ ] Frontend document viewer
-- [ ] Advanced semantic linking
+1. Clone the repository
+2. Install dependencies:
+   ```
+   npm install
+   ```
+
+3. Run development server:
+   ```
+   npm run dev
+   ```
+
+### Technologies
+
+- Next.js 14
+- React 18
+- Deployed on Netlify
+
+### Getting Started
+
+Visit the live site: https://second-brain.netlify.app
