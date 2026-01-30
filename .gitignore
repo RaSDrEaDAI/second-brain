@@ -5,3 +5,11 @@ dist/
 .vercel
 **/*.log
 **/*.node
+**/*.bin
+**/*.dll
+**/*.so
+**/*.dylib
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
