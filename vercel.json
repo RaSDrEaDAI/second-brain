@@ -3,16 +3,7 @@
   "builds": [
     {
       "src": "next.config.js",
-      "use": "@vercel/next",
-      "config": {
-        "maxLambdaSize": "10mb"
-      }
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/"
+      "use": "@vercel/next"
     }
   ]
 }

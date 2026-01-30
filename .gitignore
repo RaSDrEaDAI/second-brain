@@ -1,9 +1,7 @@
 node_modules/
 .next/
 dist/
-*.log
 .env
 .vercel
+**/*.log
 **/*.node
-**/*.bin
-**/*.dll
